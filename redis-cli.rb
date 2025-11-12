@@ -3,7 +3,7 @@ class RedisCli < Formula
   homepage "https://github.com/aoki/homebrew-redis-cli"
   version "6.0.1"
   sha256 "e5aaf79ecea4cac64a838d4d2b597a5ecc19e50d2fcdf233295053fe12a9349d"
-  url "https://github.com/antirez/redis/archive/#{version}.tar.gz"
+  url "https://github.com/redis/redis/archive/#{version}.tar.gz"
 
   def install
     system "make redis-cli"
